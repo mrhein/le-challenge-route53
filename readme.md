@@ -20,6 +20,9 @@ will try to read your AWS credentials from  `~/.aws/credentials`. Specifying
 a valid path to an alternative credentials file allows you to override the
 default behavior. Refer to [aws docs](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-json-file.html) for details.
 
+* `AWSConfigSettings`: [aws-sdk](https://www.npmjs.com/package/aws-sdk)
+set AWS.config.update(AWSConfigSettings) ...
+
 * `delay`: Delay in milliseconds before allowing letsencrypt to query dns
 records created by this plugin. Setting this property allows you to compensate
 for lag in DNS propagation.
